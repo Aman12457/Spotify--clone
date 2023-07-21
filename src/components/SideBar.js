@@ -6,8 +6,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import { useDataLayerValue } from './DataLayer';
 
-
-
 function SideBar() {
   const [{playlists}]= useDataLayerValue() ;
   console.log(playlists);
